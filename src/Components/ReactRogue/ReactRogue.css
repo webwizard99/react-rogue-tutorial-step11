@@ -1,0 +1,23 @@
+.game-wrapper {
+  display: flex;
+}
+
+.inventory, .combat-log {
+  list-style-type: none;
+  overflow-y: scroll;
+  height: 20rem;
+  width: 100%;
+}
+
+.inventory {
+  height: 14rem;
+}
+
+.combat-log {
+  height: 20rem;
+}
+
+.detail-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
